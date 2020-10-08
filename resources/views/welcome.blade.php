@@ -97,8 +97,8 @@
                     <a href="https://forge.laravel.com">Forge</a>
                     <a href="https://vapor.laravel.com">Vapor</a>
                     <a href="https://github.com/laravel/laravel">GitHub</a>
-                    @if (Route::has('material.dashboard'))
-                        <a class="material-text" href="{{ route('material.dashboard') }}">MaterialDashboardBlack</a>
+                    @if (Route::has('material-dashboard-dark.dashboard'))
+                        <a class="material-text" href="{{ route('material-dashboard-dark.dashboard') }}">MaterialDashboardBlack</a>
                     @endif
                 </div>
             </div>
