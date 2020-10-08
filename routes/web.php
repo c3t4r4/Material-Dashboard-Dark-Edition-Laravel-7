@@ -16,3 +16,10 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+
+/* Material Dashboard Dark Routes */
+Route::group(['prefix' => 'admin', 'namespace' => 'MaterialDashboardDark', 'as' => 'material-dashboard-dark.'], function() {
+    Route::get('/', 'MaterialDashboardDarkController@dashboard')->name('dashboard');
+});
