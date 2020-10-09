@@ -20,6 +20,7 @@ Route::get('/', function () {
 
 
 /* Material Dashboard Dark Routes */
-Route::group(['prefix' => 'admin', 'namespace' => 'MaterialDashboardDark', 'as' => 'material-dashboard-dark.'], function() {
+Route::group(['prefix' => 'material-dashboard-dark', 'namespace' => 'MaterialDashboardDark', 'as' => 'material-dashboard-dark.'], function() {
     Route::get('/', 'MaterialDashboardDarkController@dashboard')->name('dashboard');
+    Route::get('/user', 'MaterialDashboardDarkController@user')->name('user');
 });

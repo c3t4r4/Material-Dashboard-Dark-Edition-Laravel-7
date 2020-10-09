@@ -11,4 +11,11 @@ class MaterialDashboardDarkController extends Controller
     {
         return view('MaterialDashboardDark.pages.dashboard');
     }
+
+    public function user()
+    {
+        return view('MaterialDashboardDark.pages.user');
+    }
+
+
 }

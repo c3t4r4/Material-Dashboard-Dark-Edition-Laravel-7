@@ -13,14 +13,12 @@ Esse procedimento pode sobrescrever o seu arquivo Routes/web.php
 
 ## Instalação
 
-* Acesse o diretório antes da pasta do projeto
-
+* Acesse o diretório antes da pasta do projeto .:
 ```
 $ cd projetos
 ```
 
-* Efetue o clone deste repositório na pasta do seu projeto
-
+* Efetue o clone deste repositório na pasta do seu projeto .:
 ```
 git clone https://github.com/c3t4r4/SmartAdmin.git ./tmp
 rm -rf tmp/README.md tmp/.git
@@ -28,8 +26,30 @@ cp -R tmp/* PASTADOPROJETO/
 rm -rf tmp
 ```
 
-* Para gerar o mix dos assets
+* Adicione o seguinte código no arquivo composer.json
+```
+"files": [
+    "app/Helpers/isActive.php"
+]'
+```
 
+* Resultado .:
+```
+"autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "classmap": [
+            "database/seeds",
+            "database/factories"
+        ],
+        "files": [
+            "app/Helpers/isActive.php"
+        ]
+    },
+```
+
+* Para gerar o mix dos assets .:
 ```
 cd PASTADOPROJETO
 npm install
@@ -41,7 +61,7 @@ Nesse momento será feito o clone do repositório para dentro do seu projeto!<br
 
 * Lembre-se que nesse momento o arquivo Routes/web.php será substituído
 
-* Agora basta informar ao Laravel de que há outro idioma. Para isso, edite o arquivo `/config/app.php` e altere o valor da propriedade `locale` para `pt-BR`
+* Agora basta informar ao Laravel de que há outro idioma. Para isso, edite o arquivo `/config/app.php` e altere o valor da propriedade `locale` para `pt-BR` .:
 
 ```
 'locale' => 'pt-BR',
