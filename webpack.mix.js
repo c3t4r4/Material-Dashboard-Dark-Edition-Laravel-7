@@ -22,6 +22,10 @@ mix
         'resources/views/MaterialDashboardDark/assets/demo/demo.css'
     ], 'public/MaterialDashboardDark/demo/demo.css')
 
+    .styles([
+        'resources/views/MaterialDashboardDark/assets/css/leaflet.css'
+    ], 'public/MaterialDashboardDark/css/leaflet.css')
+
     .scripts([
         'resources/views/MaterialDashboardDark/assets/js/core/jquery.min.js',
         'resources/views/MaterialDashboardDark/assets/js/core/popper.min.js',
@@ -47,7 +51,9 @@ mix
         'resources/views/MaterialDashboardDark/assets/demo/demo.js'
     ], 'public/MaterialDashboardDark/demo/demo.js')
 
-
+    .scripts([
+        'resources/views/MaterialDashboardDark/assets/js/leaflet.js'
+    ], 'public/MaterialDashboardDark/js/leaflet.js')
 
     .copyDirectory('resources/views/MaterialDashboardDark/assets/img','public/MaterialDashboardDark/img')
     .copyDirectory('resources/views/MaterialDashboardDark/assets/fonts','public/MaterialDashboardDark/fonts')

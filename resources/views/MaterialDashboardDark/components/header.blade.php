@@ -17,8 +17,6 @@
     <link rel="stylesheet" href="{{ url(mix('MaterialDashboardDark/css/font-awesome.min.css')) }}">
     <!-- CSS Files -->
     <link rel="stylesheet" href="{{ url(mix('MaterialDashboardDark/css/material-dashboard.css')) }}"  />
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    <link rel="stylesheet" href="{{ url(mix('MaterialDashboardDark/demo/demo.css')) }}" />
 
     @if($slot)
         {{ $slot }}

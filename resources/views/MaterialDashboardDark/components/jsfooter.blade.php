@@ -1,9 +1,6 @@
 <!--   Core JS Files   -->
 <script src="{{ url(mix('MaterialDashboardDark/js/material-core.js')) }}"></script>
 
-<!--  Google Maps Plugin    -->
-{{--<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>--}}
-
 <!-- Chartist JS -->
 <script src="{{ url(mix('MaterialDashboardDark/js/plugins/chartist.min.js')) }}"></script>
 

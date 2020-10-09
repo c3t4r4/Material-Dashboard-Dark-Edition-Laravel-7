@@ -15,48 +15,60 @@
                     <p>Dashboard</p>
                 </a>
             </li>
+            <li class="nav-item {{ isActive('material-dashboard-dark.blank') }}">
+                <a class="nav-link" href="{{ route('material-dashboard-dark.blank') }}">
+                    <i class="material-icons">insert_drive_file</i>
+                    <p>Blank Page</p>
+                </a>
+            </li>
             <li class="nav-item {{ isActive('material-dashboard-dark.user') }}">
                 <a class="nav-link" href="{{ route('material-dashboard-dark.user') }}">
                     <i class="material-icons">person</i>
                     <p>User Profile</p>
                 </a>
             </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="./tables.html">
+            <li class="nav-item {{ isActive('material-dashboard-dark.tables') }}">
+                <a class="nav-link" href="{{ route('material-dashboard-dark.tables') }}">
                     <i class="material-icons">content_paste</i>
                     <p>Table List</p>
                 </a>
             </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="./typography.html">
+            <li class="nav-item {{ isActive('material-dashboard-dark.typography') }}">
+                <a class="nav-link" href="{{ route('material-dashboard-dark.typography') }}">
                     <i class="material-icons">library_books</i>
                     <p>Typography</p>
                 </a>
             </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="./icons.html">
+            <li class="nav-item {{ isActive('material-dashboard-dark.icons') }}">
+                <a class="nav-link" href="{{ route('material-dashboard-dark.icons') }}">
                     <i class="material-icons">bubble_chart</i>
                     <p>Icons</p>
                 </a>
             </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="./map.html">
+            <li class="nav-item {{ isActive('material-dashboard-dark.googlemaps') }}">
+                <a class="nav-link" href="{{ route('material-dashboard-dark.googlemaps') }}">
                     <i class="material-icons">location_ons</i>
-                    <p>Maps</p>
+                    <p>Google Maps</p>
                 </a>
             </li>
-            <li class="nav-item ">
-                <a class="nav-link" href="./notifications.html">
+            <li class="nav-item {{ isActive('material-dashboard-dark.leafletmaps') }}">
+                <a class="nav-link" href="{{ route('material-dashboard-dark.leafletmaps') }}">
+                    <i class="material-icons">location_ons</i>
+                    <p>Leaflet Maps</p>
+                </a>
+            </li>
+            <li class="nav-item {{ isActive('material-dashboard-dark.notifications') }}">
+                <a class="nav-link" href="{{ route('material-dashboard-dark.notifications') }}">
                     <i class="material-icons">notifications</i>
                     <p>Notifications</p>
                 </a>
             </li>
-            <!-- <li class="nav-item active-pro ">
-                  <a class="nav-link" href="./upgrade.html">
-                      <i class="material-icons">unarchive</i>
-                      <p>Upgrade to PRO</p>
-                  </a>
-              </li> -->
+            <li class="nav-item {{ isActive('material-dashboard-dark.upgrade') }}">
+              <a class="nav-link" href="{{ route('material-dashboard-dark.upgrade') }}">
+                  <i class="material-icons">unarchive</i>
+                  <p>Upgrade to PRO</p>
+              </a>
+          </li>
         </ul>
     </div>
 </div>
