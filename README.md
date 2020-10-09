@@ -1,11 +1,13 @@
-## Instalação do Tema Smart Admin & Tradução do Laravel - Português do Brasil (pt-BR)
+## Instalação do Tema Material Dashboard Dark & Tradução do Laravel - Português do Brasil (pt-BR)
 Esse repositório tem a finalidade de configurar o Tema SmartAdmin Bootstrap e as traduções dos arquivos contidos em `/resources/lang/en` para o português brasileiro.
 
 ## Pré-requisito
 O laravel deve estar instalado e rodando normalmente dentro do seu ambiente (independente se é desenvolvimento ou produção).
 
 ### Aviso
-Esse procedimento pode sobrescrever o seu arquivo Routes/web.php<br />
+Esse procedimento pode sobrescrever o seu arquivo Routes/web.php
+<br />
+
 
 ## Instalação
 
@@ -19,7 +21,7 @@ $ cd projetos
 
 ```
 git clone https://github.com/c3t4r4/SmartAdmin.git ./tmp
-rm -rf tmp/README.md tmp/.git tmp/.gitignore
+rm -rf tmp/README.md tmp/.git
 cp -R tmp/* PASTADOPROJETO/
 rm -rf tmp
 ```
