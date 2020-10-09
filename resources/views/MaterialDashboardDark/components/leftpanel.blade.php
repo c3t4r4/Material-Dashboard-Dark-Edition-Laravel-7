@@ -53,7 +53,7 @@
             </li>
             <li class="nav-item {{ isActive('material-dashboard-dark.leafletmaps') }}">
                 <a class="nav-link" href="{{ route('material-dashboard-dark.leafletmaps') }}">
-                    <i class="material-icons">location_ons</i>
+                    <i class="material-icons">map</i>
                     <p>Leaflet Maps</p>
                 </a>
             </li>
