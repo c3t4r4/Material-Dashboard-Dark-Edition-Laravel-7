@@ -1,5 +1,7 @@
-## Instalação do Tema Material Dashboard Dark & Tradução do Laravel - Português do Brasil (pt-BR)
-Esse repositório tem a finalidade de configurar o Tema SmartAdmin Bootstrap e as traduções dos arquivos contidos em `/resources/lang/en` para o português brasileiro.
+<p align="center"><img src="https://s3.amazonaws.com/creativetim_bucket/products/95/original/opt_mdb_thumbnail.jpg?1535551949" width="400"></p>
+
+## Instalação do Tema Material Dashboard Dark FREE Version & Tradução do Laravel - Português do Brasil (pt-BR)
+Esse repositório tem a finalidade de configurar o Tema Material Dashboard Dark FREE e as traduções dos arquivos contidos em `/resources/lang/en` para o português brasileiro.
 
 ## Pré-requisito
 O laravel deve estar instalado e rodando normalmente dentro do seu ambiente (independente se é desenvolvimento ou produção).
